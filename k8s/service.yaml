@@ -4,7 +4,7 @@ metadata:
   name: netapp
 spec:
   ports:
-  - port: 6000
+  - port: 4000
     targetPort: 8083
   selector:
     app: netapp
