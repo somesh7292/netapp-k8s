@@ -13,7 +13,7 @@ spec:
         app: netapp
     spec:
       containers:
-        - image: docker.io/somesh7292/netapp:87
+        - image: docker.io/somesh7292/netapp:88
           name: netapp
           ports:
             - containerPort: 8083
