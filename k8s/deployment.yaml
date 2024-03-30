@@ -13,7 +13,7 @@ spec:
         app: netapp
     spec:
       containers:
-        - image: docker.io/somesh7292/netapp:${env.BUILD_NUMBER}
+        - image: docker.io/somesh7292/netapp:${BUILD_NUMBER}
           name: netapp
           ports:
             - containerPort: 8083
