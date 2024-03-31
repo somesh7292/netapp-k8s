@@ -6,8 +6,5 @@ spec:
   ports:
   - port: 4000
     targetPort: 8083
-    nodePort: 30036
-    protocol: TCP
   selector:
     app: netapp
-  type: NodePort
